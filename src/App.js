@@ -1,3 +1,6 @@
+import React, { Component } from "react";
+import "./App.css";
+
 const cities = {
   amalfi: { lat: 40.634003, lng: 14.602681 },
   amsterdam: { lat: 52.370216, lng: 4.895168 },
@@ -41,17 +44,36 @@ const cities = {
   venice: { lat: 45.440847, lng: 12.315515 }
 };
 
-function initMap() {
-  const center = { lat: 35.850837, lng: -41.082645 };
-  const map = new google.maps.Map(document.getElementsByClassName("map")[0], {
-    zoom: 3,
-    center: center
-  });
-
-  const markers = Object.keys(cities).map(cityKey => {
-    new google.maps.Marker({
-      position: cities[cityKey],
-      map: map
+class Map extends React.Component {
+  componentDidMount() {
+    this.map = new window.google.maps.Map(this.refs.map, {
+      center: { lat: 35.850837, lng: -41.082645 },
+      zoom: 3
     });
-  });
+    const markers = Object.keys(cities).map(cityKey => {
+      new window.google.maps.Marker({
+        position: cities[cityKey],
+        map: this.map
+      });
+    });
+  }
+
+  render() {
+    return <div className="map" ref="map" />;
+  }
 }
+
+class App extends Component {
+  render() {
+    return (
+      <div className="app">
+        <aside className="sidebar">
+          <h3 className="sidebar__header">Travel Map</h3>
+        </aside>
+        <Map />
+      </div>
+    );
+  }
+}
+
+export default App;

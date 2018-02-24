@@ -1,13 +1,4 @@
-/* General */
-
-html,
-body {
-  height: 100%;
-  padding: 0;
-  margin: 0;
-}
-
-.main {
+.app {
   display: flex;
   min-height: 100vh;
   flex-direction: row;
