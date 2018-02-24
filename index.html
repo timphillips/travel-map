@@ -2,29 +2,18 @@
 <html>
 
 <head>
-    <style>
-        #map {
-            height: 800px;
-            width: 100%;
-        }
-    </style>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
-    <h3>My Google Maps Demo</h3>
-    <div id="map"></div>
-    <script>
-        function initMap() {
-            var uluru = { lat: -25.363, lng: 131.044 };
-            var map = new google.maps.Map(document.getElementById('map'), {
-                zoom: 3,
-                center: uluru
-            });
-            var marker = new google.maps.Marker({
-                position: uluru,
-                map: map
-            });
-        }
+    <main class="main">
+        <aside class="sidebar">
+            <h3 class="sidebar__header">Travel Map</h3>
+        </aside>
+        <div class="map"></div>
+    </main>
+
+    <script async defer src="js/travel-map.js ">
     </script>
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=<redacted>&callback=initMap">
     </script>
