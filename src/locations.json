@@ -84,7 +84,7 @@
     "position": { "latitude": 55.953252, "longitude": -3.188267 }
   },
   {
-    "country": "Canda",
+    "country": "Canada",
     "id": "edmonton",
     "name": "Edmonton",
     "position": { "latitude": 53.544389, "longitude": -113.490927 }
@@ -142,6 +142,12 @@
     "id": "istanbul",
     "name": "Istanbul",
     "position": { "latitude": 41.008238, "longitude": 28.978359 }
+  },
+  {
+    "country": "US",
+    "id": "lasVegas",
+    "name": "Las Vegas",
+    "position": { "latitude": 36.169941, "longitude": -115.13983 }
   },
   {
     "country": "UK",
@@ -250,6 +256,12 @@
     "id": "saltLakeCity",
     "name": "Salt Lake City",
     "position": { "latitude": 40.760779, "longitude": -111.891047 }
+  },
+  {
+    "country": "US",
+    "id": "sanFransisco",
+    "name": "San Fransisco",
+    "position": { "latitude": 37.774929, "longitude": -122.419416 }
   },
   {
     "country": "Italy",

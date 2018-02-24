@@ -1,19 +1,75 @@
 .app {
   display: flex;
-  min-height: 100vh;
   flex-direction: row;
   font-family: "Arial";
+  height: 100vh;
 }
 
 /* Sidebar */
 
 .sidebar {
+  color: #333;
   /* 15em is the width of the columns */
-  flex: 0 0 15em;
-  background-color: #eaf2f8;
+  flex: 0 0 17em;
   order: -1;
+  overflow-y: auto;
+  padding: 20px;
+}
+
+.sidebar__header {
+  border: 1px solid #bfbfbf;
+  padding-left: 10px;
+}
+
+.sidebar__headerTitle {
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+.sidebar__headerSubtitle {
+  margin-top: 5px;
+  font-size: 12px;
+}
+
+/* Expandable List */
+
+.expandableList {
+  padding-left: 10px;
+  border-left: 1px solid #bfbfbf;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 15px;
+}
+
+.expandableList__title {
+  font-weight: bold;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.expandableList__icon {
+  cursor: pointer;
+  font-style: normal;
+}
+
+.expandableList__icon--collapsed:before {
+  content: "\002b";
+}
+
+.expandableList__icon--expanded:before {
+  content: "\2212";
+}
+
+.expandableList__ul {
+  margin-top: 10px;
   padding-left: 20px;
-  padding-right: 20px;
+  list-style-type: circle;
+}
+
+.expandableList__li {
+  margin-top: 2px;
+  margin-bottom: 2px;
+  font-size: 13px;
 }
 
 /* Map */

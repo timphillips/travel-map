@@ -4,5 +4,7 @@ import "./index.css";
 import { App } from "./App";
 import registerServiceWorker from "./registerServiceWorker";
 
-ReactDOM.render(<App />, document.getElementById("root"));
+const locations = require("./locations.json");
+
+ReactDOM.render(<App locations={locations} />, document.getElementById("root"));
 registerServiceWorker();
