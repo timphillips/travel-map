@@ -9,7 +9,7 @@ export class ExpandableList extends Component {
     };
   }
 
-  toggleListExpanded() {
+  toggleIsExpanded() {
     this.setState({
       isExpanded: !this.state.isExpanded
     });
@@ -34,10 +34,10 @@ export class ExpandableList extends Component {
 
     return (
       <div className="expandableList">
-        <i className={iconClasses} onClick={() => this.toggleListExpanded()} />
+        <i className={iconClasses} onClick={() => this.toggleIsExpanded()} />
         <span
           className="expandableList__title"
-          onClick={() => this.toggleListExpanded()}
+          onClick={() => this.toggleIsExpanded()}
         >
           {this.props.title}
         </span>

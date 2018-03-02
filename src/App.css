@@ -74,7 +74,7 @@
 
 /* Map */
 
-.map {
+.mapContainer {
   display: flex;
   flex: 1;
 }
