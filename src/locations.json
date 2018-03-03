@@ -3,25 +3,45 @@
     "country": "Italy",
     "id": "amalfi",
     "name": "Amalfi",
-    "position": { "latitude": 40.634003, "longitude": 14.602681 }
+    "position": { "latitude": 40.634003, "longitude": 14.602681 },
+    "events": [
+      {
+        "year": 2016
+      }
+    ]
   },
   {
     "country": "Netherlands",
     "id": "amsterdam",
     "name": "Amsterdam",
-    "position": { "latitude": 52.370216, "longitude": 4.895168 }
+    "position": { "latitude": 52.370216, "longitude": 4.895168 },
+    "events": [
+      {
+        "year": 2013
+      }
+    ]
   },
   {
     "country": "Greece",
     "id": "athens",
     "name": "Athens",
-    "position": { "latitude": 37.98381, "longitude": 23.727539 }
+    "position": { "latitude": 37.98381, "longitude": 23.727539 },
+    "events": [
+      {
+        "year": 2013
+      }
+    ]
   },
   {
     "country": "Switzerland",
     "id": "baden",
     "name": "Baden",
-    "position": { "latitude": 47.47288, "longitude": 8.30809 }
+    "position": { "latitude": 47.47288, "longitude": 8.30809 },
+    "events": [
+      {
+        "year": 2012
+      }
+    ]
   },
   {
     "country": "Canada",
@@ -33,37 +53,69 @@
     "country": "Spain",
     "id": "barcelona",
     "name": "Barcelona",
-    "position": { "latitude": 41.385064, "longitude": 2.173403 }
+    "position": { "latitude": 41.385064, "longitude": 2.173403 },
+    "events": [
+      {
+        "year": 2012
+      }
+    ]
   },
   {
     "country": "Italy",
     "id": "bari",
     "name": "Bari",
-    "position": { "latitude": 41.117143, "longitude": 16.871871 }
+    "position": { "latitude": 41.117143, "longitude": 16.871871 },
+    "events": [
+      {
+        "year": 2013
+      }
+    ]
   },
   {
-    "country": "Greece",
+    "country": "Turkey",
     "id": "bodrum",
-    "name": "Turkey",
-    "position": { "latitude": 37.034407, "longitude": 27.43054 }
+    "name": "Bodrum",
+    "position": { "latitude": 37.034407, "longitude": 27.43054 },
+    "events": [
+      {
+        "year": 2013
+      }
+    ]
   },
   {
     "country": "Morocco",
     "id": "boumalneDades",
     "name": "Boumalne Dades",
-    "position": { "latitude": 31.368924, "longitude": -5.988546 }
+    "position": { "latitude": 31.368924, "longitude": -5.988546 },
+    "events": [
+      {
+        "year": 2013
+      }
+    ]
   },
   {
     "country": "Hungary",
     "id": "budapest",
     "name": "Budapest",
-    "position": { "latitude": 47.497912, "longitude": 19.040235 }
+    "position": { "latitude": 47.497912, "longitude": 19.040235 },
+    "events": [
+      {
+        "year": 2012,
+        "detail":
+          "Two days; one snowy and cold, the other blue skies and warm. "
+      }
+    ]
   },
   {
     "country": "Canada",
     "id": "calgary",
     "name": "Calgary",
-    "position": { "latitude": 51.048615, "longitude": -114.070846 }
+    "position": { "latitude": 51.048615, "longitude": -114.070846 },
+    "events": [
+      {
+        "detail": "Born and raised"
+      }
+    ]
   },
   {
     "country": "Canada",
@@ -75,73 +127,140 @@
     "country": "Croatia",
     "id": "dubrovnik",
     "name": "Dubrovnik",
-    "position": { "latitude": 42.650661, "longitude": 18.094424 }
+    "position": { "latitude": 42.650661, "longitude": 18.094424 },
+    "events": [
+      {
+        "year": "2013"
+      }
+    ]
   },
   {
     "country": "UK",
     "id": "edinburgh",
     "name": "Edinburgh",
-    "position": { "latitude": 55.953252, "longitude": -3.188267 }
+    "position": { "latitude": 55.953252, "longitude": -3.188267 },
+    "events": [
+      {
+        "year": "2017-2018"
+      }
+    ]
   },
   {
     "country": "Canada",
     "id": "edmonton",
     "name": "Edmonton",
-    "position": { "latitude": 53.544389, "longitude": -113.490927 }
+    "position": { "latitude": 53.544389, "longitude": -113.490927 },
+    "events": [
+      {
+        "year": "2008-2013",
+        "detail": "University of Alberta"
+      }
+    ]
   },
   {
     "country": "Morocco",
     "id": "ergChebbi",
     "name": "Erg Chebbi",
-    "position": { "latitude": 31.145833, "longitude": -3.967778 }
+    "position": { "latitude": 31.145833, "longitude": -3.967778 },
+    "events": [
+      {
+        "year": 2013
+      }
+    ]
   },
   {
     "country": "US",
     "id": "eugene",
     "name": "Eugene",
-    "position": { "latitude": 44.052069, "longitude": -123.086754 }
+    "position": { "latitude": 44.052069, "longitude": -123.086754 },
+    "events": [
+      {
+        "year": 2013
+      },
+      {
+        "year": 2017
+      }
+    ]
   },
   {
     "country": "US",
     "id": "ferndale",
     "name": "Ferndale",
-    "position": { "latitude": 40.576241, "longitude": -124.263944 }
+    "position": { "latitude": 40.576241, "longitude": -124.263944 },
+    "events": [
+      {
+        "year": 2017
+      }
+    ]
   },
   {
     "country": "Italy",
     "id": "florence",
     "name": "Florence",
-    "position": { "latitude": 43.76956, "longitude": 11.255814 }
+    "position": { "latitude": 43.76956, "longitude": 11.255814 },
+    "events": [
+      {
+        "year": 2016
+      }
+    ]
   },
   {
     "country": "UK",
     "id": "glasgow",
     "name": "Glasgow",
-    "position": { "latitude": 55.864237, "longitude": -4.251806 }
+    "position": { "latitude": 55.864237, "longitude": -4.251806 },
+    "events": [
+      {
+        "year": 2016
+      },
+      {
+        "year": "2017-2018"
+      }
+    ]
   },
   {
     "country": "Turkey",
     "id": "goreme",
     "name": "Goreme",
-    "position": { "latitude": 38.643056, "longitude": 34.828889 }
+    "position": { "latitude": 38.643056, "longitude": 34.828889 },
+    "events": [
+      {
+        "year": 2013
+      }
+    ]
   },
   {
     "country": "US",
     "id": "grandCanyon",
     "name": "Grand Canyon",
-    "position": { "latitude": 36.106965, "longitude": -112.112997 }
+    "position": { "latitude": 36.106965, "longitude": -112.112997 },
+    "events": [
+      {
+        "year": 2015
+      }
+    ]
   },
   {
     "country": "US",
     "id": "greatFalls",
     "name": "Great Falls",
-    "position": { "latitude": 47.494184, "longitude": -111.283345 }
+    "position": { "latitude": 47.494184, "longitude": -111.283345 },
+    "events": [
+      {
+        "year": 2015
+      }
+    ]
   },
   {
     "country": "Turkey",
     "id": "istanbul",
     "name": "Istanbul",
-    "position": { "latitude": 41.008238, "longitude": 28.978359 }
+    "position": { "latitude": 41.008238, "longitude": 28.978359 },
+    "events": [
+      {
+        "year": 2013
+      }
+    ]
   },
   {
     "country": "US",
@@ -153,37 +272,67 @@
     "country": "UK",
     "id": "london",
     "name": "London",
-    "position": { "latitude": 51.507351, "longitude": -0.127758 }
+    "position": { "latitude": 51.507351, "longitude": -0.127758 },
+    "events": [
+      {
+        "year": 2016
+      }
+    ]
   },
   {
     "country": "Spain",
     "id": "madrid",
     "name": "Madrid",
-    "position": { "latitude": 40.416775, "longitude": -3.70379 }
+    "position": { "latitude": 40.416775, "longitude": -3.70379 },
+    "events": [
+      {
+        "year": 2013
+      }
+    ]
   },
   {
     "country": "Morocco",
     "id": "marrakech",
     "name": "Marrakech",
-    "position": { "latitude": 31.629472, "longitude": -7.981084 }
+    "position": { "latitude": 31.629472, "longitude": -7.981084 },
+    "events": [
+      {
+        "year": 2013
+      }
+    ]
   },
   {
     "country": "France",
     "id": "marseille",
     "name": "Marseille",
-    "position": { "latitude": 43.296482, "longitude": 5.36978 }
+    "position": { "latitude": 43.296482, "longitude": 5.36978 },
+    "events": [
+      {
+        "year": 2016
+      }
+    ]
   },
   {
     "country": "Italy",
     "id": "matera",
     "name": "Matera",
-    "position": { "latitude": 40.666379, "longitude": 16.60432 }
+    "position": { "latitude": 40.666379, "longitude": 16.60432 },
+    "events": [
+      {
+        "year": 2013
+      }
+    ]
   },
   {
     "country": "Italy",
     "id": "milan",
     "name": "Milan",
-    "position": { "latitude": 45.464204, "longitude": 9.189982 }
+    "position": { "latitude": 45.464204, "longitude": 9.189982 },
+    "events": [
+      {
+        "year": 2012
+      }
+    ]
   },
   {
     "country": "US",
@@ -201,7 +350,12 @@
     "country": "France",
     "id": "nice",
     "name": "Nice",
-    "position": { "latitude": 43.710173, "longitude": 7.261953 }
+    "position": { "latitude": 43.710173, "longitude": 7.261953 },
+    "events": [
+      {
+        "year": 2016
+      }
+    ]
   },
   {
     "country": "Canada",
@@ -213,49 +367,95 @@
     "country": "Spain",
     "id": "palma",
     "name": "Palma",
-    "position": { "latitude": 39.5696, "longitude": 2.65016 }
+    "position": { "latitude": 39.5696, "longitude": 2.65016 },
+    "events": [
+      {
+        "year": 2017
+      }
+    ]
   },
   {
     "country": "France",
     "id": "paris",
     "name": "Paris",
-    "position": { "latitude": 48.856614, "longitude": 2.352222 }
+    "position": { "latitude": 48.856614, "longitude": 2.352222 },
+    "events": [
+      {
+        "year": 2013
+      }
+    ]
   },
   {
     "country": "US",
     "id": "portland",
     "name": "Portland",
-    "position": { "latitude": 45.523062, "longitude": -122.676482 }
+    "position": { "latitude": 45.523062, "longitude": -122.676482 },
+    "events": [
+      {
+        "year": 2013
+      },
+      {
+        "year": 2017
+      }
+    ]
   },
   {
     "country": "US",
     "id": "seattle",
     "name": "Seattle",
-    "position": { "latitude": 47.606209, "longitude": -122.332071 }
+    "position": { "latitude": 47.606209, "longitude": -122.332071 },
+    "events": [
+      {
+        "year": 2017
+      }
+    ]
   },
   {
     "country": "Czech Republic",
     "id": "prague",
     "name": "Prague",
-    "position": { "latitude": 50.075538, "longitude": 14.4378 }
+    "position": { "latitude": 50.075538, "longitude": 14.4378 },
+    "events": [
+      {
+        "year": 2016
+      }
+    ]
   },
   {
     "country": "Greece",
     "id": "rhodes",
     "name": "Rhodes",
-    "position": { "latitude": 36.434053, "longitude": 28.217638 }
+    "position": { "latitude": 36.434053, "longitude": 28.217638 },
+    "events": [
+      {
+        "year": 2013
+      }
+    ]
   },
   {
     "country": "Italy",
     "id": "rome",
     "name": "Rome",
-    "position": { "latitude": 41.902783, "longitude": 12.496366 }
+    "position": { "latitude": 41.902783, "longitude": 12.496366 },
+    "events": [
+      {
+        "year": 2013
+      },
+      {
+        "year": 2015
+      }
+    ]
   },
   {
     "country": "US",
     "id": "saltLakeCity",
     "name": "Salt Lake City",
-    "position": { "latitude": 40.760779, "longitude": -111.891047 }
+    "position": { "latitude": 40.760779, "longitude": -111.891047 },
+    "events": [
+      {
+        "year": 2015
+      }
+    ]
   },
   {
     "country": "US",
@@ -267,19 +467,37 @@
     "country": "Italy",
     "id": "santorini",
     "name": "Santorini",
-    "position": { "latitude": 36.393156, "longitude": 25.461509 }
+    "position": { "latitude": 36.393156, "longitude": 25.461509 },
+    "events": [
+      {
+        "year": 2013
+      }
+    ]
   },
   {
     "country": "US",
     "id": "spokane",
     "name": "Spokane",
-    "position": { "latitude": 47.65878, "longitude": -117.426046 }
+    "position": { "latitude": 47.65878, "longitude": -117.426046 },
+    "events": [
+      {
+        "year": 2017
+      },
+      {
+        "year": 2013
+      }
+    ]
   },
   {
     "country": "Greece",
     "id": "symi",
     "name": "Symi",
-    "position": { "latitude": 36.585572, "longitude": 27.842865 }
+    "position": { "latitude": 36.585572, "longitude": 27.842865 },
+    "events": [
+      {
+        "year": 2013
+      }
+    ]
   },
   {
     "country": "Canada",
@@ -297,18 +515,36 @@
     "country": "Canada",
     "id": "vancouver",
     "name": "Vancouver",
-    "position": { "latitude": 49.282729, "longitude": -123.120738 }
+    "position": { "latitude": 49.282729, "longitude": -123.120738 },
+    "events": [
+      {
+        "year": 2013
+      }
+    ]
   },
   {
     "country": "Italy",
     "id": "venice",
     "name": "Venice",
-    "position": { "latitude": 45.440847, "longitude": 12.315515 }
+    "position": { "latitude": 45.440847, "longitude": 12.315515 },
+    "events": [
+      {
+        "year": 2016
+      },
+      {
+        "year": 2012
+      }
+    ]
   },
   {
     "country": "Italy",
     "id": "verona",
     "name": "Verona",
-    "position": { "latitude": 45.438384, "longitude": 10.991622 }
+    "position": { "latitude": 45.438384, "longitude": 10.991622 },
+    "events": [
+      {
+        "year": 2012
+      }
+    ]
   }
 ]
