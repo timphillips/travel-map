@@ -447,6 +447,17 @@
     ]
   },
   {
+    "country": "United Kingdom",
+    "id": "rosehearty",
+    "name": "Rosehearty",
+    "position": { "latitude": 57.697476, "longitude": -2.118799 },
+    "events": [
+      {
+        "year": 2018
+      }
+    ]
+  },
+  {
     "country": "US",
     "id": "saltLakeCity",
     "name": "Salt Lake City",
@@ -510,6 +521,17 @@
     "id": "toronto",
     "name": "Toronto",
     "position": { "latitude": 43.653226, "longitude": -79.383184 }
+  },
+  {
+    "country": "United Kingdom",
+    "id": "tyndrum",
+    "name": "Tyndrum",
+    "position": { "latitude": 56.436709, "longitude": -4.712289 },
+    "events": [
+      {
+        "year": 2018
+      }
+    ]
   },
   {
     "country": "Canada",
