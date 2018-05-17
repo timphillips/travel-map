@@ -7,4 +7,4 @@ import registerServiceWorker from "./registerServiceWorker";
 const locations = require("./locations.json");
 
 ReactDOM.render(<App locations={locations} />, document.getElementById("root"));
-registerServiceWorker();
+window.location.protocol === "https:" && registerServiceWorker();
