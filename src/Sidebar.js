@@ -39,8 +39,10 @@ export function Sidebar(props) {
           className="sidebar__openSource"
           href="https://github.com/timphillips/travel-map"
           target="_blank"
+          rel="noopener noreferrer"
         >
           <img
+            alt="GitHub"
             className="sidebar__openSourceLogo"
             src="github-32px.png"
             width={20}
@@ -50,7 +52,11 @@ export function Sidebar(props) {
         </a>
         <span>
           Built by{" "}
-          <a href="http://www.tim-phillips.com" target="_blank">
+          <a
+            href="http://www.tim-phillips.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             Tim Phillips
           </a>
         </span>

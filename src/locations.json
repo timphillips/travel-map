@@ -206,6 +206,17 @@
   },
   {
     "country": "UK",
+    "id": "fortWilliam",
+    "name": "Fort William",
+    "position": { "latitude": 56.819817, "longitude": -5.105218 },
+    "events": [
+      {
+        "year": 2018
+      }
+    ]
+  },
+  {
+    "country": "UK",
     "id": "glasgow",
     "name": "Glasgow",
     "position": { "latitude": 55.864237, "longitude": -4.251806 },
@@ -422,6 +433,17 @@
     ]
   },
   {
+    "country": "UK",
+    "id": "quiraing",
+    "name": "Quiraing",
+    "position": { "latitude": 57.643707, "longitude": -6.265346 },
+    "events": [
+      {
+        "year": 2018
+      }
+    ]
+  },
+  {
     "country": "Greece",
     "id": "rhodes",
     "name": "Rhodes",
@@ -447,7 +469,7 @@
     ]
   },
   {
-    "country": "United Kingdom",
+    "country": "UK",
     "id": "rosehearty",
     "name": "Rosehearty",
     "position": { "latitude": 57.697476, "longitude": -2.118799 },
@@ -511,6 +533,17 @@
     ]
   },
   {
+    "country": "UK",
+    "id": " tarskavig",
+    "name": "Tarskavig",
+    "position": { "latitude": 57.114056, "longitude": -5.98597 },
+    "events": [
+      {
+        "year": 2018
+      }
+    ]
+  },
+  {
     "country": "Canada",
     "id": "tofino",
     "name": "Tofino",
@@ -523,7 +556,7 @@
     "position": { "latitude": 43.653226, "longitude": -79.383184 }
   },
   {
-    "country": "United Kingdom",
+    "country": "UK",
     "id": "tyndrum",
     "name": "Tyndrum",
     "position": { "latitude": 56.436709, "longitude": -4.712289 },
