@@ -1,6 +1,28 @@
 import React from "react";
 import { InfoWindow, Map, Marker } from "google-maps-react";
 
+
+function filterLocationByYear(location, year) {
+  if (!year) {
+    return true;
+  }
+  if (location.events && year) {
+    for (const event of location.events) {
+      if (event.year && event.year.toString() === year.toString()) {
+        return true;
+      }
+    }
+  }
+  return false;
+}
+
+function filterLocationByCountry(location, country) {
+  if (!country) {
+    return true;
+  }
+  return location.country === country;
+}
+
 export class MapContainer extends React.Component {
   constructor(props) {
     super(props);
@@ -20,7 +42,15 @@ export class MapContainer extends React.Component {
   }
 
   render() {
-    const locationMarkers = this.props.locations.map(location => (
+    const filterLocation = (location) => (
+      filterLocationByYear(location, this.props.filters.year) &&
+      filterLocationByCountry(location, this.props.filters.country));
+
+    const filteredLocations = this.props.filters.year || this.props.filters.country
+      ? this.props.locations.filter(filterLocation)
+      : this.props.locations;
+
+    const locationMarkers = filteredLocations.map(location => (
       <Marker
         key={location.id}
         title={location.name}
@@ -64,6 +94,7 @@ export class MapContainer extends React.Component {
             lat: 35,
             lng: -35
           }}
+          mapTypeControl={false}
         >
           {locationMarkers}
           {infoWindow}
