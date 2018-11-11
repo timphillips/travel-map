@@ -3,7 +3,6 @@ import "./App.css";
 import { MapContainer } from "./MapContainer";
 import { Sidebar } from "./Sidebar";
 
-
 export class App extends React.Component {
   constructor(props) {
     super(props);
@@ -18,8 +17,8 @@ export class App extends React.Component {
   onCountryChanged(country) {
     this.setState({
       filters: {
-        country: country || null,
-        year: this.state.filters.year
+        ...this.state.filters,
+        country: country || null
       }
     });
   }
@@ -27,7 +26,7 @@ export class App extends React.Component {
   onYearChanged(year) {
     this.setState({
       filters: {
-        country: this.state.filters.country,
+        ...this.state.filters,
         year: year || null
       }
     });
@@ -37,14 +36,17 @@ export class App extends React.Component {
     return (
       <div className="app">
         <Sidebar
+          filters={this.state.filters}
           locations={this.props.locations}
           onCountryChanged={country => this.onCountryChanged(country)}
-          onYearChanged={year => this.onYearChanged(year)} />
+          onYearChanged={year => this.onYearChanged(year)}
+        />
         <MapContainer
           locations={this.props.locations}
           filters={this.state.filters}
           google={window.google}
         />
-      </div>);
+      </div>
+    );
   }
-};
+}
