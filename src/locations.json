@@ -42,6 +42,20 @@
     ]
   },
   {
+    "country": "Iceland",
+    "id": "arcticHenge",
+    "name": "Arctic Henge (Raufarhöfn)",
+    "position": {
+      "latitude": 66.462124,
+      "longitude": -15.963124
+    },
+    "events": [
+      {
+        "year": 2018
+      }
+    ]
+  },
+  {
     "country": "Switzerland",
     "id": "baden",
     "name": "Baden",
@@ -62,7 +76,15 @@
     "position": {
       "latitude": 51.178363,
       "longitude": -115.570769
-    }
+    },
+    "events": [
+      {
+        "year": 2017
+      },
+      {
+        "year": 2018
+      }
+    ]
   },
   {
     "country": "Spain",
@@ -144,6 +166,9 @@
     },
     "events": [
       {
+        "year": 2012
+      },
+      {
         "year": 2013
       },
       {
@@ -157,6 +182,9 @@
       },
       {
         "year": 2017
+      },
+      {
+        "year": 2018
       }
     ]
   },
@@ -213,6 +241,9 @@
     },
     "events": [
       {
+        "year": 2012
+      },
+      {
         "year": 2013
       },
       {
@@ -226,6 +257,9 @@
       },
       {
         "year": 2017
+      },
+      {
+        "year": 2018
       }
     ]
   },
@@ -365,6 +399,20 @@
     ]
   },
   {
+    "country": "Iceland",
+    "id": "hofsos",
+    "name": "Hofsós",
+    "position": {
+      "latitude": 65.897246,
+      "longitude": -19.413679
+    },
+    "events": [
+      {
+        "year": 2018
+      }
+    ]
+  },
+  {
     "country": "Turkey",
     "id": "istanbul",
     "name": "Istanbul",
@@ -375,6 +423,34 @@
     "events": [
       {
         "year": 2013
+      }
+    ]
+  },
+  {
+    "country": "Canada",
+    "id": "jasper",
+    "name": "Jasper",
+    "position": {
+      "latitude": 52.87377,
+      "longitude": -118.081473
+    },
+    "events": [
+      {
+        "year": 2012
+      }
+    ]
+  },
+  {
+    "country": "Iceland",
+    "id": "jokulsarlon",
+    "name": "Jökulsárlón",
+    "position": {
+      "latitude": 64.071919,
+      "longitude": -16.219725
+    },
+    "events": [
+      {
+        "year": 2018
       }
     ]
   },
@@ -586,12 +662,35 @@
     ]
   },
   {
+    "country": "Canada",
+    "id": "quebecCity",
+    "name": "Quebec City",
+    "position": {
+      "latitude": 46.855006,
+      "longitude": -71.253676
+    }
+  },
+  {
     "country": "UK",
     "id": "quiraing",
     "name": "Quiraing",
     "position": {
       "latitude": 57.643707,
       "longitude": -6.265346
+    },
+    "events": [
+      {
+        "year": 2018
+      }
+    ]
+  },
+  {
+    "country": "Iceland",
+    "id": "reykjavik",
+    "name": "Reykjavik",
+    "position": {
+      "latitude": 64.141782,
+      "longitude": -21.92674
     },
     "events": [
       {
@@ -626,7 +725,7 @@
         "year": 2013
       },
       {
-        "year": 2015
+        "year": 2016
       }
     ]
   },
@@ -682,6 +781,34 @@
     ]
   },
   {
+    "country": "Iceland",
+    "id": "seydisfjordur",
+    "name": "Seydisfjordur",
+    "position": {
+      "latitude": 65.259721,
+      "longitude": -14.009372
+    },
+    "events": [
+      {
+        "year": 2018
+      }
+    ]
+  },
+  {
+    "country": "Iceland",
+    "id": "snaefellsjokull",
+    "name": "Snæfellsjökull National Park",
+    "position": {
+      "latitude": 64.820679,
+      "longitude": -23.883446
+    },
+    "events": [
+      {
+        "year": 2018
+      }
+    ]
+  },
+  {
     "country": "US",
     "id": "spokane",
     "name": "Spokane",
@@ -697,6 +824,15 @@
         "year": 2013
       }
     ]
+  },
+  {
+    "country": "Canada",
+    "id": "sudbury",
+    "name": "Sudbury",
+    "position": {
+      "latitude": 46.493837,
+      "longitude": -81.005532
+    }
   },
   {
     "country": "Greece",
