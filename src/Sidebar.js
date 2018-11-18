@@ -113,7 +113,7 @@ export class Sidebar extends React.Component {
 function OptionsToggle(props) {
   return (
     <div className="options__toggle" onClick={props.onToggleShowOptions}>
-      <a>{props.showOptions ? "Close Options" : "Show Options"}</a>
+      <a>{props.showOptions ? "Hide Options" : "Show Options"}</a>
     </div>
   );
 }
