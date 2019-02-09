@@ -185,6 +185,9 @@
       },
       {
         "year": 2018
+      },
+      {
+        "year": 2019
       }
     ]
   },
@@ -212,6 +215,34 @@
     ]
   },
   {
+    "country": "Ireland",
+    "id": "dublin",
+    "name": "Dublin",
+    "position": {
+      "latitude": 53.347333,
+      "longitude": -6.258973
+    },
+    "events": [
+      {
+        "year": 2019
+      }
+    ]
+  },
+  {
+    "country": "Tanzania",
+    "id": "darEsSalaam",
+    "name": "Dar es Salaam",
+    "position": {
+      "latitude": -6.817419,
+      "longitude": 39.286224
+    },
+    "events": [
+      {
+        "year": 2019
+      }
+    ]
+  },
+  {
     "country": "UK",
     "id": "edinburgh",
     "name": "Edinburgh",
@@ -228,6 +259,9 @@
       },
       {
         "year": 2018
+      },
+      {
+        "year": 2019
       }
     ]
   },
@@ -534,6 +568,20 @@
     ]
   },
   {
+    "country": "Tanzania",
+    "id": "michamviKae",
+    "name": "Michamvi Kae",
+    "position": {
+      "latitude": -6.141266,
+      "longitude": 39.491764
+    },
+    "events": [
+      {
+        "year": 2019
+      }
+    ]
+  },
+  {
     "country": "Italy",
     "id": "milan",
     "name": "Milan",
@@ -564,6 +612,20 @@
       "latitude": 45.501689,
       "longitude": -73.567256
     }
+  },
+  {
+    "country": "Tanzania",
+    "id": "mtwara",
+    "name": "Mtwara",
+    "position": {
+      "latitude": -10.25771,
+      "longitude": 40.17695
+    },
+    "events": [
+      {
+        "year": 2019
+      }
+    ]
   },
   {
     "country": "France",
@@ -644,6 +706,20 @@
     "events": [
       {
         "year": 2017
+      }
+    ]
+  },
+  {
+    "country": "Tanzania",
+    "id": "stoneTown",
+    "name": "Stone Town",
+    "position": {
+      "latitude": -6.162426,
+      "longitude": 39.18817
+    },
+    "events": [
+      {
+        "year": 2019
       }
     ]
   },
