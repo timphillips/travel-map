@@ -20,30 +20,14 @@ function compareStringsDescending(a, b) {
   return 0;
 }
 
-function SidebarHeader() {
+function SidebarHeader(props) {
   return (
-    <React.Fragment>
+    <div className="sidebar__header">
       <h1 className="sidebar__headerTitle">Travel Log</h1>
-      <p className="sidebar__headerSubtitle">
-        Built by{" "}
-        <a
-          href="http://www.tim-phillips.com"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Tim Phillips
-        </a>
-        . Source code on{" "}
-        <a
-          href="https://github.com/timphillips/travel-map"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          GitHub
-        </a>
-        .
-      </p>
-    </React.Fragment>
+      <span className="sidebar__headerIcon" onClick={props.onToggleOpen}>
+        {props.isOpen ? "×" : "☰"}
+      </span>
+    </div>
   );
 }
 
@@ -51,13 +35,13 @@ export class Sidebar extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      showOptions: false
+      isOpen: false
     };
   }
 
-  onToggleShowOptions(props) {
+  onToggleOpen(props) {
     this.setState({
-      showOptions: !this.state.showOptions
+      isOpen: !this.state.isOpen
     });
   }
 
@@ -89,33 +73,23 @@ export class Sidebar extends React.Component {
     return (
       <div className="sidebar">
         <div className="sidebar__content">
-          <SidebarHeader />
-          {this.state.showOptions && (
-            <OptionsContent
-              filters={this.props.filters}
-              locations={locations}
-              countries={countries}
-              years={years}
-              onCountryChanged={this.props.onCountryChanged}
-              onYearChanged={this.props.onYearChanged}
-            />
-          )}
+          <SidebarHeader
+            isOpen={this.state.isOpen}
+            onToggleOpen={() => this.onToggleOpen()}
+          />
+          <OptionsContent
+            isOpen={this.state.isOpen}
+            filters={this.props.filters}
+            locations={locations}
+            countries={countries}
+            years={years}
+            onCountryChanged={this.props.onCountryChanged}
+            onYearChanged={this.props.onYearChanged}
+          />
         </div>
-        <OptionsToggle
-          showOptions={this.state.showOptions}
-          onToggleShowOptions={() => this.onToggleShowOptions()}
-        />
       </div>
     );
   }
-}
-
-function OptionsToggle(props) {
-  return (
-    <div className="options__toggle" onClick={props.onToggleShowOptions}>
-      <a>{props.showOptions ? "Hide Options" : "Show Options"}</a>
-    </div>
-  );
 }
 
 function OptionsContent(props) {
@@ -143,8 +117,29 @@ function OptionsContent(props) {
   const yearSelectedValue = props.filters.year || "all";
   const countrySelectedValue = props.filters.country || "all";
 
+  const extraClassName = props.isOpen ? "options--open" : "";
   return (
-    <div className="options">
+    <div className={"options" + extraClassName}>
+      <p className="sidebar__headerSubtitle">
+        Built by{" "}
+        <a
+          href="http://www.tim-phillips.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Tim Phillips
+        </a>
+        . Source code on{" "}
+        <a
+          href="https://github.com/timphillips/travel-map"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          GitHub
+        </a>
+        .
+      </p>
+
       <div className="options__field">
         <label className="options__fieldLabel">Year</label>
         <select

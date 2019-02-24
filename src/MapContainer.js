@@ -1,7 +1,6 @@
 import React from "react";
 import { InfoWindow, Map, Marker } from "google-maps-react";
 
-
 function filterLocationByYear(location, year) {
   if (!year) {
     return true;
@@ -42,13 +41,14 @@ export class MapContainer extends React.Component {
   }
 
   render() {
-    const filterLocation = (location) => (
+    const filterLocation = location =>
       filterLocationByYear(location, this.props.filters.year) &&
-      filterLocationByCountry(location, this.props.filters.country));
+      filterLocationByCountry(location, this.props.filters.country);
 
-    const filteredLocations = this.props.filters.year || this.props.filters.country
-      ? this.props.locations.filter(filterLocation)
-      : this.props.locations;
+    const filteredLocations =
+      this.props.filters.year || this.props.filters.country
+        ? this.props.locations.filter(filterLocation)
+        : this.props.locations;
 
     const locationMarkers = filteredLocations.map(location => (
       <Marker
@@ -64,17 +64,14 @@ export class MapContainer extends React.Component {
       />
     ));
 
-    let infoWindowContent;
-    if (this.state.selectedLocation) {
-      infoWindowContent = (
-        <h3>
-          {this.state.selectedLocation.name},{" "}
-          {this.state.selectedLocation.country}
-        </h3>
-      );
-    } else {
-      infoWindowContent = <div />;
-    }
+    const infoWindowContent = this.state.selectedLocation ? (
+      <h3>
+        {this.state.selectedLocation.name},{" "}
+        {this.state.selectedLocation.country}
+      </h3>
+    ) : (
+      <div />
+    );
 
     const infoWindow = (
       <InfoWindow
