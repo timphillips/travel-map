@@ -20,17 +20,6 @@ function compareStringsDescending(a, b) {
   return 0;
 }
 
-function SidebarHeader(props) {
-  return (
-    <div className="sidebar__header">
-      <h1 className="sidebar__headerTitle">Travel Log</h1>
-      <span className="sidebar__headerIcon" onClick={props.onToggleOpen}>
-        {props.isOpen ? "×" : "☰"}
-      </span>
-    </div>
-  );
-}
-
 export class Sidebar extends React.Component {
   constructor(props) {
     super(props);
@@ -39,7 +28,7 @@ export class Sidebar extends React.Component {
     };
   }
 
-  onToggleOpen(props) {
+  onToggleIsOpen(props) {
     this.setState({
       isOpen: !this.state.isOpen
     });
@@ -70,14 +59,17 @@ export class Sidebar extends React.Component {
       )
     );
 
+    const sidebarContentClasses = this.state.isOpen
+      ? "sidebar__content sidebar__content--open"
+      : "sidebar__content sidebar__content--closed";
     return (
       <div className="sidebar">
-        <div className="sidebar__content">
+        <div className={sidebarContentClasses}>
           <SidebarHeader
             isOpen={this.state.isOpen}
-            onToggleOpen={() => this.onToggleOpen()}
+            onToggleOpen={() => this.onToggleIsOpen()}
           />
-          <OptionsContent
+          <SidebarBody
             isOpen={this.state.isOpen}
             filters={this.props.filters}
             locations={locations}
@@ -92,7 +84,18 @@ export class Sidebar extends React.Component {
   }
 }
 
-function OptionsContent(props) {
+function SidebarHeader(props) {
+  return (
+    <div className="sidebar__header">
+      <h1 className="sidebar__headerTitle">Travel Log</h1>
+      <span className="sidebar__headerIcon" onClick={props.onToggleOpen}>
+        {props.isOpen ? "×" : "☰"}
+      </span>
+    </div>
+  );
+}
+
+function SidebarBody(props) {
   const countryOptions = [
     <option key="all" value="">
       All
@@ -117,10 +120,12 @@ function OptionsContent(props) {
   const yearSelectedValue = props.filters.year || "all";
   const countrySelectedValue = props.filters.country || "all";
 
-  const extraClassName = props.isOpen ? "options--open" : "";
+  const sidebarClasses = props.isOpen
+    ? "sidebar__body sidebar__body--open"
+    : "sidebar__body sidebar__body--closed";
   return (
-    <div className={"options" + extraClassName}>
-      <p className="sidebar__headerSubtitle">
+    <div className={sidebarClasses}>
+      <p className="sidebar__bodySubtitle">
         Built by{" "}
         <a
           href="http://www.tim-phillips.com"
