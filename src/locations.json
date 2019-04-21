@@ -97,6 +97,9 @@
     "events": [
       {
         "year": 2012
+      },
+      {
+        "year": 2018
       }
     ]
   },
@@ -675,6 +678,20 @@
     "events": [
       {
         "year": 2013
+      }
+    ]
+  },
+  {
+    "country": "Italy",
+    "id": "perugia",
+    "name": "Perugia",
+    "position": {
+      "latitude": 43.11243,
+      "longitude": 12.389353
+    },
+    "events": [
+      {
+        "year": 2019
       }
     ]
   },
