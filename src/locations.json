@@ -146,6 +146,34 @@
     ]
   },
   {
+    "country": "US",
+    "id": "brookings",
+    "name": "Brookings",
+    "position": {
+      "latitude": 42.065937,
+      "longitude": -124.306361
+    },
+    "events": [
+      {
+        "year": 2017
+      }
+    ]
+  },
+  {
+    "country": "US",
+    "id": "bryce",
+    "name": "Bryce Canyon",
+    "position": {
+      "latitude": 37.618602,
+      "longitude": -112.163112
+    },
+    "events": [
+      {
+        "year": 2015
+      }
+    ]
+  },
+  {
     "country": "Hungary",
     "id": "budapest",
     "name": "Budapest",
@@ -156,6 +184,20 @@
     "events": [
       {
         "year": 2012
+      }
+    ]
+  },
+  {
+    "country": "US",
+    "id": "bullardsBeach",
+    "name": "Bullards Beach State Park",
+    "position": {
+      "latitude": 43.155981,
+      "longitude": -124.407085
+    },
+    "events": [
+      {
+        "year": 2014
       }
     ]
   },
@@ -202,6 +244,48 @@
       "latitude": 46.23824,
       "longitude": -63.13107
     }
+  },
+  {
+    "country": "US",
+    "id": "coyoteGulch",
+    "name": "Coyote Gulch (Grand Staircase-Escalante)",
+    "position": {
+      "latitude": 37.42797,
+      "longitude": -110.981156
+    },
+    "events": [
+      {
+        "year": 2015
+      }
+    ]
+  },
+  {
+    "country": "US",
+    "id": "craterLake",
+    "name": "Crater Lake",
+    "position": {
+      "latitude": 42.942175,
+      "longitude": -122.10631
+    },
+    "events": [
+      {
+        "year": 2014
+      }
+    ]
+  },
+  {
+    "country": "US",
+    "id": "cratersOfTheMoon",
+    "name": "Craters of the Moon National Monument",
+    "position": {
+      "latitude": 43.461972,
+      "longitude": -113.559994
+    },
+    "events": [
+      {
+        "year": 2015
+      }
+    ]
   },
   {
     "country": "Croatia",
@@ -316,6 +400,20 @@
   },
   {
     "country": "US",
+    "id": "escalante",
+    "name": "Escalante",
+    "position": {
+      "latitude": 37.770467,
+      "longitude": -111.609773
+    },
+    "events": [
+      {
+        "year": 2015
+      }
+    ]
+  },
+  {
+    "country": "US",
     "id": "eugene",
     "name": "Eugene",
     "position": {
@@ -325,6 +423,9 @@
     "events": [
       {
         "year": 2013
+      },
+      {
+        "year": 2014
       },
       {
         "year": 2017
@@ -631,6 +732,20 @@
     ]
   },
   {
+    "country": "US",
+    "id": "newport",
+    "name": "Newport",
+    "position": {
+      "latitude": 44.608581,
+      "longitude": -124.059666
+    },
+    "events": [
+      {
+        "year": 2014
+      }
+    ]
+  },
+  {
     "country": "France",
     "id": "nice",
     "name": "Nice",
@@ -652,6 +767,20 @@
       "latitude": 45.42153,
       "longitude": -75.697193
     }
+  },
+  {
+    "country": "US",
+    "id": "ozette",
+    "name": "Ozette Triangle",
+    "position": {
+      "latitude": 48.125879,
+      "longitude": -124.711696
+    },
+    "events": [
+      {
+        "year": 2017
+      }
+    ]
   },
   {
     "country": "Spain",
@@ -678,6 +807,20 @@
     "events": [
       {
         "year": 2013
+      }
+    ]
+  },
+  {
+    "country": "US",
+    "id": "patricksPoint",
+    "name": "Patrick's Point State Park",
+    "position": {
+      "latitude": 41.139738,
+      "longitude": -124.160597
+    },
+    "events": [
+      {
+        "year": 2017
       }
     ]
   },
@@ -721,6 +864,9 @@
       "longitude": -122.332071
     },
     "events": [
+      {
+        "year": 2014
+      },
       {
         "year": 2017
       }
@@ -774,6 +920,20 @@
     "events": [
       {
         "year": 2018
+      }
+    ]
+  },
+  {
+    "country": "US",
+    "id": "redwoodNationalPark",
+    "name": "Redwood National and State Parks",
+    "position": {
+      "latitude": 41.216244,
+      "longitude": -124.014063
+    },
+    "events": [
+      {
+        "year": 2017
       }
     ]
   },
@@ -911,10 +1071,13 @@
     },
     "events": [
       {
-        "year": 2017
+        "year": 2013
       },
       {
-        "year": 2013
+        "year": 2014
+      },
+      {
+        "year": 2017
       }
     ]
   },
@@ -998,6 +1161,9 @@
     "events": [
       {
         "year": 2013
+      },
+      {
+        "year": 2014
       }
     ]
   },
@@ -1029,6 +1195,20 @@
     "events": [
       {
         "year": 2012
+      }
+    ]
+  },
+  {
+    "country": "US",
+    "id": "zion",
+    "name": "Zion National Park",
+    "position": {
+      "latitude": 37.304232,
+      "longitude": -112.985454
+    },
+    "events": [
+      {
+        "year": 2015
       }
     ]
   }
