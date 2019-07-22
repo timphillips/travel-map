@@ -1091,6 +1091,20 @@
     }
   },
   {
+    "country": "Switzerland",
+    "id": "swissAlps",
+    "name": "Swiss Alps",
+    "position": {
+      "latitude": 46.713289,
+      "longitude": 9.896206
+    },
+    "events": [
+      {
+        "year": 2019
+      }
+    ]
+  },
+  {
     "country": "Greece",
     "id": "symi",
     "name": "Symi",
@@ -1209,6 +1223,20 @@
     "events": [
       {
         "year": 2015
+      }
+    ]
+  },
+  {
+    "country": "Switzerland",
+    "id": "zurich",
+    "name": "Zurich",
+    "position": {
+      "latitude": 47.382759,
+      "longitude": 8.537752
+    },
+    "events": [
+      {
+        "year": 2019
       }
     ]
   }
