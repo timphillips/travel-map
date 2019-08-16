@@ -433,6 +433,34 @@
     ]
   },
   {
+    "country": "UK",
+    "id": "exter",
+    "name": "Exter",
+    "position": {
+      "latitude": 50.72251,
+      "longitude": -3.532473
+    },
+    "events": [
+      {
+        "year": 2019
+      }
+    ]
+  },
+  {
+    "country": "UK",
+    "id": "falmouth",
+    "name": "Falmouth",
+    "position": {
+      "latitude": 50.152594,
+      "longitude": -5.066434
+    },
+    "events": [
+      {
+        "year": 2019
+      }
+    ]
+  },
+  {
     "country": "US",
     "id": "ferndale",
     "name": "Ferndale",
@@ -612,6 +640,9 @@
     "events": [
       {
         "year": 2016
+      },
+      {
+        "year": 2019
       }
     ]
   },
