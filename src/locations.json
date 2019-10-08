@@ -237,6 +237,20 @@
     ]
   },
   {
+    "country": "Spain",
+    "id": "cantabriaCoast",
+    "name": "Cantabria Coast",
+    "position": {
+      "latitude": 43.473413,
+      "longitude": -3.915573
+    },
+    "events": [
+      {
+        "year": 2019
+      }
+    ]
+  },
+  {
     "country": "Canada",
     "id": "charlottetown",
     "name": "Charlottetown",
@@ -381,6 +395,9 @@
       },
       {
         "year": 2018
+      },
+      {
+        "year": 2019
       }
     ]
   },
