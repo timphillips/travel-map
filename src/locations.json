@@ -1,5 +1,19 @@
 [
   {
+    "country": "Portugal",
+    "id": "almograve",
+    "name": "Almograve",
+    "position": {
+      "latitude": 37.652923,
+      "longitude": -8.79283
+    },
+    "events": [
+      {
+        "year": 2020
+      }
+    ]
+  },
+  {
     "country": "Italy",
     "id": "amalfi",
     "name": "Amalfi",
@@ -201,6 +215,35 @@
       }
     ]
   },
+
+  {
+    "country": "Spain",
+    "id": "calaEnPorter",
+    "name": "Cala en Porter",
+    "position": {
+      "latitude": 39.869467,
+      "longitude": 4.133332
+    },
+    "events": [
+      {
+        "year": 2020
+      }
+    ]
+  },
+  {
+    "country": "Spain",
+    "id": "calaGaldana",
+    "name": "Cala Galdana",
+    "position": {
+      "latitude": 39.938462,
+      "longitude": 3.959523
+    },
+    "events": [
+      {
+        "year": 2020
+      }
+    ]
+  },
   {
     "country": "Canada",
     "id": "calgary",
@@ -302,6 +345,20 @@
     ]
   },
   {
+    "country": "Spain",
+    "id": "deja",
+    "name": "Deià",
+    "position": {
+      "latitude": 39.746416,
+      "longitude": 2.646452
+    },
+    "events": [
+      {
+        "year": 2018
+      }
+    ]
+  },
+  {
     "country": "Croatia",
     "id": "dubrovnik",
     "name": "Dubrovnik",
@@ -363,6 +420,9 @@
       },
       {
         "year": 2019
+      },
+      {
+        "year": 2020
       }
     ]
   },
@@ -412,6 +472,20 @@
     "events": [
       {
         "year": 2013
+      }
+    ]
+  },
+  {
+    "country": "Spain",
+    "id": "esMigjornGran",
+    "name": "Es Migjorn Gran",
+    "position": {
+      "latitude": 39.94562,
+      "longitude": 4.048586
+    },
+    "events": [
+      {
+        "year": 2020
       }
     ]
   },
@@ -647,6 +721,20 @@
     }
   },
   {
+    "country": "Portugal",
+    "id": "lisbon",
+    "name": "Lisbon",
+    "position": {
+      "latitude": 38.722059,
+      "longitude": -9.139993
+    },
+    "events": [
+      {
+        "year": 2020
+      }
+    ]
+  },
+  {
     "country": "UK",
     "id": "london",
     "name": "London",
@@ -674,6 +762,20 @@
     "events": [
       {
         "year": 2013
+      }
+    ]
+  },
+  {
+    "country": "Spain",
+    "id": "mahon",
+    "name": "Mahón",
+    "position": {
+      "latitude": 39.888298,
+      "longitude": 4.263665
+    },
+    "events": [
+      {
+        "year": 2020
       }
     ]
   },
@@ -744,6 +846,9 @@
     "events": [
       {
         "year": 2012
+      },
+      {
+        "year": 2019
       }
     ]
   },
@@ -804,6 +909,20 @@
     "events": [
       {
         "year": 2016
+      }
+    ]
+  },
+  {
+    "country": "Portugal",
+    "id": "odeceixe",
+    "name": "Odeceixe",
+    "position": {
+      "latitude": 37.432565,
+      "longitude": -8.77166
+    },
+    "events": [
+      {
+        "year": 2020
       }
     ]
   },
@@ -887,6 +1006,20 @@
     ]
   },
   {
+    "country": "Spain",
+    "id": "pollenca",
+    "name": "Pollença",
+    "position": {
+      "latitude": 39.877747,
+      "longitude": 3.01659
+    },
+    "events": [
+      {
+        "year": 2018
+      }
+    ]
+  },
+  {
     "country": "US",
     "id": "portland",
     "name": "Portland",
@@ -900,6 +1033,21 @@
       },
       {
         "year": 2017
+      }
+    ]
+  },
+
+  {
+    "country": "Portugal",
+    "id": "portoCovo",
+    "name": "Porto Covo",
+    "position": {
+      "latitude": 37.850034,
+      "longitude": -8.795583
+    },
+    "events": [
+      {
+        "year": 2020
       }
     ]
   },
@@ -1239,10 +1387,13 @@
     },
     "events": [
       {
+        "year": 2012
+      },
+      {
         "year": 2016
       },
       {
-        "year": 2012
+        "year": 2019
       }
     ]
   },
@@ -1257,6 +1408,51 @@
     "events": [
       {
         "year": 2012
+      },
+      {
+        "year": 2019
+      }
+    ]
+  },
+  {
+    "country": "Austria",
+    "id": "vienna",
+    "name": "Vienna",
+    "position": {
+      "latitude": 48.208466,
+      "longitude": 16.370825
+    },
+    "events": [
+      {
+        "year": 2020
+      }
+    ]
+  },
+  {
+    "country": "Portugal",
+    "id": "vilaNovaDeMilfontes",
+    "name": "Vila Nova de Milfontes",
+    "position": {
+      "latitude": 37.722732,
+      "longitude": -8.781735
+    },
+    "events": [
+      {
+        "year": 2020
+      }
+    ]
+  },
+  {
+    "country": "Portugal",
+    "id": "zambujeiraDoMar",
+    "name": "Zambujeira do Mar",
+    "position": {
+      "latitude": 37.523089,
+      "longitude": -8.786668
+    },
+    "events": [
+      {
+        "year": 2020
       }
     ]
   },
