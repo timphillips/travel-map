@@ -1,72 +1,50 @@
 import React from "react";
 import { InfoWindow, Map, Marker } from "google-maps-react";
 
-export class MapContainer extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      activeMarker: {},
-      selectedLocation: {},
-      showingInfoWindow: false
-    };
-  }
+export function MapContainer({ locations, google }) {
+  const [activeMarker, setActiveMarker] = React.useState();
+  const [selectedLocation, setSelectedLocation] = React.useState();
 
-  onMarkerClick(props, marker) {
-    this.setState({
-      activeMarker: marker,
-      showingInfoWindow: true,
-      selectedLocation: props.location
-    });
-  }
-
-  render() {
-    const locationMarkers = this.props.locations.map(location => (
-      <Marker
-        key={location.id}
-        title={location.name}
-        name={location.name}
-        location={location}
-        onClick={(props, marker, e) => this.onMarkerClick(props, marker, e)}
-        position={{
-          lat: location.position.latitude,
-          lng: location.position.longitude
-        }}
-      />
-    ));
-
-    const infoWindowContent = this.state.selectedLocation ? (
-      <h3>
-        {this.state.selectedLocation.name},{" "}
-        {this.state.selectedLocation.country}
-      </h3>
-    ) : (
-      <div />
-    );
-
-    const infoWindow = (
-      <InfoWindow
-        marker={this.state.activeMarker}
-        visible={this.state.showingInfoWindow}
-      >
-        {infoWindowContent}
-      </InfoWindow>
-    );
-
-    return (
-      <div className="mapContainer">
-        <Map
-          google={this.props.google}
-          zoom={3}
-          initialCenter={{
-            lat: 35,
-            lng: -35
+  const locationMarkers = React.useMemo(
+    () =>
+      locations.map(location => (
+        <Marker
+          key={location.id}
+          title={location.name}
+          name={location.name}
+          location={location}
+          onClick={(props, marker, e) => {
+            setActiveMarker(marker);
+            setSelectedLocation(props.location);
           }}
-          mapTypeControl={false}
-        >
-          {locationMarkers}
-          {infoWindow}
-        </Map>
-      </div>
-    );
-  }
+          position={{
+            lat: location.position.latitude,
+            lng: location.position.longitude
+          }}
+        />
+      )),
+    [locations]
+  );
+
+  return (
+    <div className="mapContainer">
+      <Map
+        google={google}
+        zoom={3}
+        initialCenter={{
+          lat: 35,
+          lng: -35
+        }}
+        mapTypeControl={false}
+      >
+        {locationMarkers}
+        <InfoWindow marker={activeMarker} visible>
+          <h3>
+            {selectedLocation &&
+              `${selectedLocation.name}, ${selectedLocation.country}`}
+          </h3>
+        </InfoWindow>
+      </Map>
+    </div>
+  );
 }
