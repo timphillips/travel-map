@@ -1,6 +1,6 @@
-/* Sidebar */
+/* InfoBox */
 
-.sidebar {
+.infoBox {
   border-radius: 2px;
   box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px -1px;
   color: #444;
@@ -9,118 +9,59 @@
   position: absolute;
   left: 0;
   top: 0;
-  z-index: 1; /* position in front of map */
+  background: white;
+  padding: 10px 25px 10px 25px;
 }
 
-.sidebar__content {
-  background: white; /* for browsers that do not support gradients */
-  padding: 10px 25px 20px 25px;
-}
-
-.sidebar__headerTitle {
+.infoBox__title {
   font-size: 42px;
   text-align: center;
   font-family: "Permanent Marker", cursive;
   font-weight: normal;
   margin-top: 0;
   margin-bottom: 0;
-  width: 100%;
 }
 
-.sidebar__headerIcon {
-  display: none;
-  position: absolute;
-  right: 5px;
-  top: 5px;
-  text-align: center;
-  font-size: 20px;
-  width: 30px;
-  height: 30px;
-  line-height: 30px;
-  user-select: none;
-  cursor: pointer;
-}
-
-.sidebar__headerIcon:active,
-.sidebar__headerIcon:hover {
-  background-color: #f2f2f2;
-}
-
-.sidebar__bodySubtitle {
-  margin-bottom: 25px;
+.infoBox__subtitle {
+  margin-bottom: 15px;
   margin-top: 15px;
   font-size: 14px;
   text-align: center;
 }
 
-.sidebar__bodySubtitle a:visited,
-.sidebar__bodySubtitle a:link {
+.infoBox__subtitle a:visited,
+.infoBox__subtitle a:link {
   color: #2a5db0;
 }
-.sidebar__bodySubtitle a:hover {
+.infoBox__subtitle a:hover {
   color: #6f99dc;
 }
-.sidebar__bodySubtitle a:active {
+.infoBox__subtitle a:active {
   color: #98b6e6;
 }
 
 @media only screen and (max-width: 768px) {
-  .sidebar {
+  .infoBox {
     right: 50px;
-    width: initial;
-    height: 40px;
-  }
-
-  .sidebar__headerTitle {
-    font-size: 27px;
-  }
-
-  .sidebar__content {
     padding-top: 0;
   }
 
-  .sidebar__content--closed {
-    padding: 0 10px;
+  .infoBox__title {
+    font-size: 27px;
   }
 
-  .sidebar__headerIcon {
-    display: initial;
-  }
-
-  .sidebar__body {
-    display: none;
-  }
-
-  .sidebar__body--open {
-    display: initial;
-    margin-bottom: 20px;
-  }
-
-  .sidebar__bodySubtitle {
+  .infoBox__subtitle {
     margin-top: 5px;
+    margin-bottom: 0;
+    font-size: 12px;
+    color: #999;
   }
-}
-
-/* Options */
-
-.options__field {
-  margin-top: 5px;
-}
-
-.options__fieldLabel {
-  font-size: 14px;
-}
-
-.options__field select {
-  width: 100%;
-  padding: 6px 10px;
-  margin: 8px 0;
 }
 
 /* Map */
 
 .mapContainer {
-  position: absolute;
+  position: fixed;
   top: 0;
   right: 0;
   bottom: 0;
