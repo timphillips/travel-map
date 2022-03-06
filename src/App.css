@@ -40,7 +40,19 @@
   color: #98b6e6;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1000px) {
+  .infoBox__title {
+    font-size: 27px;
+  }
+
+  .infoBox__subtitle {
+    margin-top: 5px;
+    margin-bottom: 0;
+    font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
   .infoBox {
     right: 50px;
     padding-top: 0;
@@ -54,7 +66,6 @@
     margin-top: 5px;
     margin-bottom: 0;
     font-size: 12px;
-    color: #999;
   }
 }
 

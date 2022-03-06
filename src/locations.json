@@ -43,6 +43,20 @@
   },
   {
     "country": "Greece",
+    "id": "andros",
+    "name": "Andros",
+    "position": {
+      "latitude": 37.842242,
+      "longitude": 24.934492
+    },
+    "events": [
+      {
+        "year": 2021
+      }
+    ]
+  },
+  {
+    "country": "Greece",
     "id": "athens",
     "name": "Athens",
     "position": {
@@ -52,6 +66,9 @@
     "events": [
       {
         "year": 2013
+      },
+      {
+        "year": 2021
       }
     ]
   },
@@ -156,6 +173,20 @@
     "events": [
       {
         "year": 2013
+      }
+    ]
+  },
+  {
+    "country": "UK",
+    "id": "brighton",
+    "name": "Brighton",
+    "position": {
+      "latitude": 50.819343,
+      "longitude": -0.137000
+    },
+    "events": [
+      {
+        "year": 2021
       }
     ]
   },
@@ -276,6 +307,9 @@
       },
       {
         "year": 2019
+      },
+      {
+        "year": 2021
       }
     ]
   },
@@ -301,6 +335,34 @@
       "latitude": 46.23824,
       "longitude": -63.13107
     }
+  },
+  {
+    "country": "UK",
+    "id": "churchStretton",
+    "name": "Church Stretton",
+    "position": {
+      "latitude": 52.539482,
+      "longitude": -2.807744
+    },
+    "events": [
+      {
+        "year": 2021
+      }
+    ]
+  },
+  {
+    "country": "UK",
+    "id": "conwy",
+    "name": "Conwy",
+    "position": {
+      "latitude":53.280794,
+      "longitude": -3.806434
+    },
+    "events": [
+      {
+        "year": 2021
+      }
+    ]
   },
   {
     "country": "US",
@@ -458,6 +520,9 @@
       },
       {
         "year": 2019
+      },
+      {
+        "year": 2021
       }
     ]
   },
@@ -594,6 +659,20 @@
     ]
   },
   {
+    "country": "Greece",
+    "id": "gavrio",
+    "name": "Gavrio",
+    "position": {
+      "latitude": 37.885756,
+      "longitude": 24.737482
+    },
+    "events": [
+      {
+        "year": 2021
+      }
+    ]
+  },
+  {
     "country": "UK",
     "id": "glasgow",
     "name": "Glasgow",
@@ -666,6 +745,20 @@
     "events": [
       {
         "year": 2018
+      }
+    ]
+  },
+  {
+    "country": "Spain",
+    "id": "ibiza",
+    "name": "Ibiza",
+    "position": {
+      "latitude": 39.008219,
+      "longitude": 1.577867
+    },
+    "events": [
+      {
+        "year": 2021
       }
     ]
   },
@@ -871,6 +964,20 @@
     }
   },
   {
+    "country": "Greece",
+    "id": "mpatsi",
+    "name": "Mpatsi",
+    "position": {
+      "latitude": 37.857491,
+      "longitude": 24.786372
+    },
+    "events": [
+      {
+        "year": 2021
+      }
+    ]
+  },
+  {
     "country": "Tanzania",
     "id": "mtwara",
     "name": "Mtwara",
@@ -923,6 +1030,20 @@
     "events": [
       {
         "year": 2020
+      }
+    ]
+  },
+  {
+    "country": "Greece",
+    "id": "ormosKorthiou",
+    "name": "Ormos Korthiou",
+    "position": {
+      "latitude": 37.773206,
+      "longitude": 24.950951
+    },
+    "events": [
+      {
+        "year": 2021
       }
     ]
   },
@@ -1036,7 +1157,6 @@
       }
     ]
   },
-
   {
     "country": "Portugal",
     "id": "portoCovo",
@@ -1254,6 +1374,20 @@
     "events": [
       {
         "year": 2018
+      }
+    ]
+  },
+  {
+    "country": "UK",
+    "id": "snowdonia",
+    "name": "Snowdonia",
+    "position": {
+      "latitude": 53.051008,
+      "longitude": -4.014624
+    },
+    "events": [
+      {
+        "year": 2021
       }
     ]
   },
