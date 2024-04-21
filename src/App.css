@@ -54,18 +54,7 @@
 
 @media only screen and (max-width: 500px) {
   .infoBox {
-    right: 50px;
-    padding-top: 0;
-  }
-
-  .infoBox__title {
-    font-size: 27px;
-  }
-
-  .infoBox__subtitle {
-    margin-top: 5px;
-    margin-bottom: 0;
-    font-size: 12px;
+    display:none
   }
 }
 
