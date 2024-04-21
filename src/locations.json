@@ -38,6 +38,9 @@
     "events": [
       {
         "year": 2013
+      },
+      {
+        "year": 2022
       }
     ]
   },
@@ -246,7 +249,20 @@
       }
     ]
   },
-
+  {
+    "country": "UK",
+    "id": "bute",
+    "name": "Isle of Bute",
+    "position": {
+      "latitude": 55.730335, 
+      "longitude": -5.004587
+    },
+    "events": [
+      {
+        "year": 2024
+      }
+    ]
+  },
   {
     "country": "Spain",
     "id": "calaEnPorter",
@@ -324,6 +340,20 @@
     "events": [
       {
         "year": 2019
+      }
+    ]
+  },
+  {
+    "country": "Italy",
+    "id": "cefalu",
+    "name": "Cafelu",
+    "position": {
+      "latitude": 38.036841, 
+      "longitude": 14.019832
+    },
+    "events": [
+      {
+        "year": 2023
       }
     ]
   },
@@ -542,6 +572,23 @@
   },
   {
     "country": "Spain",
+    "id": "esCanar",
+    "name": "Es Canar",
+    "position": {
+      "latitude": 39.008219,
+      "longitude": 1.577867
+    },
+    "events": [
+      {
+        "year": 2021
+      },
+      {
+        "year": 2022
+      }
+    ]
+  },
+  {
+    "country": "Spain",
     "id": "esMigjornGran",
     "name": "Es Migjorn Gran",
     "position": {
@@ -565,6 +612,20 @@
     "events": [
       {
         "year": 2015
+      }
+    ]
+  },
+  {
+    "country": "Spain",
+    "id": "Estellencs",
+    "name": "Estellencs",
+    "position": {
+      "latitude": 39.653309, 
+      "longitude": 2.481243
+    },
+    "events": [
+      {
+        "year": 2022
       }
     ]
   },
@@ -617,6 +678,20 @@
     ]
   },
   {
+    "country": "Italy",
+    "id": "favignana",
+    "name": "Favignana",
+    "position": {
+      "latitude": 37.930042, 
+      "longitude": 12.329100
+    },
+    "events": [
+      {
+        "year": 2023
+      }
+    ]
+  },
+  {
     "country": "US",
     "id": "ferndale",
     "name": "Ferndale",
@@ -641,6 +716,20 @@
     "events": [
       {
         "year": 2016
+      }
+    ]
+  },
+  {
+    "country": "Spain",
+    "id": "esPujols",
+    "name": "Es Pujols",
+    "position": {
+      "latitude": 38.720902, 
+      "longitude": 1.458228
+    },
+    "events": [
+      {
+        "year": 2022
       }
     ]
   },
@@ -753,12 +842,29 @@
     "id": "ibiza",
     "name": "Ibiza",
     "position": {
-      "latitude": 39.008219,
-      "longitude": 1.577867
+      "latitude": 38.907040,
+      "longitude": 1.422131
     },
     "events": [
       {
         "year": 2021
+      },
+      {
+        "year": 2022
+      }
+    ]
+  },
+  {
+    "country": "UK",
+    "id": "inverness",
+    "name": "Inverness",
+    "position": {
+      "latitude": 57.479843, 
+      "longitude": -4.231264
+    },
+    "events": [
+      {
+        "year": 2023
       }
     ]
   },
@@ -1095,6 +1201,9 @@
     "events": [
       {
         "year": 2013
+      },
+      {
+        "year": 2022
       }
     ]
   },
@@ -1203,6 +1312,20 @@
     ]
   },
   {
+    "country": "Italy",
+    "id": "palermo",
+    "name": "Palermo",
+    "position": {
+      "latitude": 38.136442, 
+      "longitude": 13.346984
+    },
+    "events": [
+      {
+        "year": 2023
+      }
+    ]
+  },
+  {
     "country": "Czech Republic",
     "id": "prague",
     "name": "Prague",
@@ -1295,6 +1418,9 @@
       },
       {
         "year": 2016
+      },
+      {
+        "year": 2023
       }
     ]
   },
@@ -1412,6 +1538,34 @@
     ]
   },
   {
+    "country": "UK",
+    "id": "stAndrews",
+    "name": "St Andrews",
+    "position": {
+      "latitude": 56.339232, 
+      "longitude": -2.796962
+    },
+    "events": [
+      {
+        "year": 2024
+      }
+    ]
+  },
+  {
+    "country": "UK",
+    "id": "stirling",
+    "name": "Stirling",
+    "position": {
+      "latitude": 56.117742, 
+      "longitude": -3.937737
+    },
+    "events": [
+      {
+        "year": 2022
+      }
+    ]
+  },
+  {
     "country": "Canada",
     "id": "sudbury",
     "name": "Sudbury",
@@ -1479,6 +1633,20 @@
       "latitude": 43.653226,
       "longitude": -79.383184
     }
+  },
+  {
+    "country": "France",
+    "id": "toulouse",
+    "name": "Toulouse",
+    "position": {
+      "latitude": 43.601412, 
+      "longitude": 1.440315
+    },
+    "events": [
+      {
+        "year": 2023
+      }
+    ]
   },
   {
     "country": "UK",
