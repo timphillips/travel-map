@@ -13,15 +13,6 @@ export function InfoBox() {
         >
           Tim Phillips
         </a>
-        . Code on{" "}
-        <a
-          href="https://github.com/timphillips/travel-map"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          GitHub
-        </a>
-        .
       </p>
     </div>
   );

@@ -181,6 +181,20 @@
   },
   {
     "country": "UK",
+    "id": "bowmore",
+    "name": "Bowmore",
+    "position": {
+      "latitude": 55.75652166926427, 
+      "longitude": -6.285362785632453
+    },
+    "events": [
+      {
+        "year": 2024
+      }
+    ]
+  },
+  {
+    "country": "UK",
     "id": "brighton",
     "name": "Brighton",
     "position": {
@@ -204,6 +218,9 @@
     "events": [
       {
         "year": 2017
+      },
+      {
+        "year": 2024
       }
     ]
   },
@@ -395,6 +412,20 @@
     ]
   },
   {
+    "country": "Spain",
+    "id": "corralejo",
+    "name": "Corralejo",
+    "position": {
+      "latitude": 28.72940481934322, 
+      "longitude": -13.864125239466558
+    },
+    "events": [
+      {
+        "year": 2024
+      }
+    ]
+  },
+  {
     "country": "US",
     "id": "coyoteGulch",
     "name": "Coyote Gulch (Grand Staircase-Escalante)",
@@ -461,6 +492,20 @@
     "events": [
       {
         "year": 2013
+      }
+    ]
+  },
+  {
+    "country": "UK",
+    "id": "dunbar",
+    "name": "Dunbar",
+    "position": {
+      "latitude": 56.00283347634343, 
+      "longitude": -2.5182870927682797
+    },
+    "events": [
+      {
+        "year": 2024
       }
     ]
   },
@@ -865,6 +910,9 @@
     "events": [
       {
         "year": 2023
+      },
+      {
+        "year": 2024
       }
     ]
   },
@@ -879,6 +927,20 @@
     "events": [
       {
         "year": 2013
+      }
+    ]
+  },
+  {
+    "country": "Spain",
+    "id": "jandia",
+    "name": "Jandia",
+    "position": {
+      "latitude": 28.114175249374227,
+      "longitude": -14.279644155836609
+    },
+    "events": [
+      {
+        "year": 2024
       }
     ]
   },
@@ -907,6 +969,20 @@
     "events": [
       {
         "year": 2018
+      }
+    ]
+  },
+  {
+    "country": "UK",
+    "id": "kirkwall",
+    "name": "Kirkwall",
+    "position": {
+      "latitude": 58.98341619321655, 
+      "longitude": -2.960207832725207
+    },
+    "events": [
+      {
+        "year": 2024
       }
     ]
   },
@@ -1098,6 +1174,20 @@
     ]
   },
   {
+    "country": "Germany",
+    "id": "munich",
+    "name": "Munich",
+    "position": {
+      "latitude": 48.14083470273713, 
+      "longitude": 11.574503550253793
+    },
+    "events": [
+      {
+        "year": 2024
+      }
+    ]
+  },
+  {
     "country": "US",
     "id": "newport",
     "name": "Newport",
@@ -1108,6 +1198,9 @@
     "events": [
       {
         "year": 2014
+      },
+      {
+        "year": 2024
       }
     ]
   },
@@ -1268,6 +1361,20 @@
   },
   {
     "country": "Portugal",
+    "id": "porto",
+    "name": "Porto",
+    "position": {
+      "latitude": 41.1474265090622,
+      "longitude": -8.609213812104207
+    },
+    "events": [
+      {
+        "year": 2024
+      }
+    ]
+  },
+  {
+    "country": "Portugal",
     "id": "portoCovo",
     "name": "Porto Covo",
     "position": {
@@ -1277,6 +1384,34 @@
     "events": [
       {
         "year": 2020
+      }
+    ]
+  },
+  {
+    "country": "Spain",
+    "id": "puertoCalero",
+    "name": "Puerto Calero",
+    "position": {
+      "latitude": 28.917290970944038,
+      "longitude": -13.703573316887795
+    },
+    "events": [
+      {
+        "year": 2024
+      }
+    ]
+  },
+  {
+    "country": "Spain",
+    "id": "puertoDelRosario",
+    "name": "Puerto del Rosario",
+    "position": {
+      "latitude": 28.49881400094445,
+      "longitude": -13.860507160530021
+    },
+    "events": [
+      {
+        "year": 2024
       }
     ]
   },
@@ -1534,6 +1669,9 @@
       },
       {
         "year": 2017
+      },
+      {
+        "year": 2024
       }
     ]
   },
@@ -1585,6 +1723,20 @@
     "events": [
       {
         "year": 2019
+      }
+    ]
+  },
+  {
+    "country": "UK",
+    "id": "swanage",
+    "name": "Swanage",
+    "position": {
+      "latitude": 50.60829823406235,
+      "longitude": -1.9577384484658629
+    },
+    "events": [
+      {
+        "year": 2023
       }
     ]
   },
@@ -1659,6 +1811,20 @@
     "events": [
       {
         "year": 2018
+      }
+    ]
+  },
+  {
+    "country": "UK",
+    "id": "ullapool",
+    "name": "Ullapool",
+    "position": {
+      "latitude": 57.89794200629646, 
+      "longitude": -5.16220955404742
+    },
+    "events": [
+      {
+        "year": 2024
       }
     ]
   },
@@ -1741,6 +1907,34 @@
     "events": [
       {
         "year": 2020
+      }
+    ]
+  },
+  {
+    "country": "US",
+    "id": "weaverville",
+    "name": "Weaverville",
+    "position": {
+      "latitude": 40.733537738934096, 
+      "longitude": -122.94076099564393
+    },
+    "events": [
+      {
+        "year": 2024
+      }
+    ]
+  },
+  {
+    "country": "UK",
+    "id": "westBay",
+    "name": "West Bay",
+    "position": {
+      "latitude": 50.711369842825555,
+      "longitude": -2.7660283782540542
+    },
+    "events": [
+      {
+        "year": 2024
       }
     ]
   },

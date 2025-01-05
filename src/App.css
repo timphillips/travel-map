@@ -14,7 +14,7 @@
 }
 
 .infoBox__title {
-  font-size: 42px;
+  font-size: 30px;
   text-align: center;
   font-family: "Permanent Marker", cursive;
   font-weight: normal;
@@ -23,8 +23,8 @@
 }
 
 .infoBox__subtitle {
-  margin-bottom: 15px;
-  margin-top: 15px;
+  margin-bottom: 5px;
+  margin-top: 5px;
   font-size: 14px;
   text-align: center;
 }
