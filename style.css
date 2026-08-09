@@ -1,4 +1,16 @@
-/* InfoBox */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+#map {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
 
 .infoBox {
   border-radius: 2px;
@@ -11,6 +23,7 @@
   top: 0;
   background: white;
   padding: 10px 25px 10px 25px;
+  z-index: 1000;
 }
 
 .infoBox__title {
@@ -54,16 +67,6 @@
 
 @media only screen and (max-width: 500px) {
   .infoBox {
-    display:none
+    display: none;
   }
-}
-
-/* Map */
-
-.mapContainer {
-  position: fixed;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
 }
