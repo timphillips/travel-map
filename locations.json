@@ -1967,6 +1967,62 @@
     ]
   },
   {
+    "country": "Sweden",
+    "id": "stockholm",
+    "name": "Stockholm",
+    "position": {
+      "latitude": 59.329323,
+      "longitude": 18.068581
+    },
+    "events": [
+      {
+        "year": 2026
+      }
+    ]
+  },
+  {
+    "country": "Sweden",
+    "id": "norrkoping",
+    "name": "Norrköping",
+    "position": {
+      "latitude": 58.587745,
+      "longitude": 16.192421
+    },
+    "events": [
+      {
+        "year": 2026
+      }
+    ]
+  },
+  {
+    "country": "Sweden",
+    "id": "saintAnna",
+    "name": "Saint Anna",
+    "position": {
+      "latitude": 58.386204698004384,
+      "longitude": 17.01209221422072
+    },
+    "events": [
+      {
+        "year": 2026
+      }
+    ]
+  },
+  {
+    "country": "Sweden",
+    "id": "gryt",
+    "name": "Gryt",
+    "position": {
+      "latitude": 58.187882,
+      "longitude": 16.892580
+    },
+    "events": [
+      {
+        "year": 2026
+      }
+    ]
+  },
+  {
     "country": "Switzerland",
     "id": "zurich",
     "name": "Zurich",
