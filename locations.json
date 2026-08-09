@@ -1,5 +1,19 @@
 [
   {
+    "country": "France",
+    "id": "aleria",
+    "name": "Aleria",
+    "position": {
+      "latitude": 42.103889,
+      "longitude": 9.512778
+    },
+    "events": [
+      {
+        "year": 2026
+      }
+    ]
+  },
+  {
     "country": "Portugal",
     "id": "almograve",
     "name": "Almograve",
@@ -59,6 +73,20 @@
     ]
   },
   {
+    "country": "Iceland",
+    "id": "arcticHenge",
+    "name": "Arctic Henge (Raufarhöfn)",
+    "position": {
+      "latitude": 66.462124,
+      "longitude": -15.963124
+    },
+    "events": [
+      {
+        "year": 2018
+      }
+    ]
+  },
+  {
     "country": "Greece",
     "id": "athens",
     "name": "Athens",
@@ -72,20 +100,6 @@
       },
       {
         "year": 2021
-      }
-    ]
-  },
-  {
-    "country": "Iceland",
-    "id": "arcticHenge",
-    "name": "Arctic Henge (Raufarhöfn)",
-    "position": {
-      "latitude": 66.462124,
-      "longitude": -15.963124
-    },
-    "events": [
-      {
-        "year": 2018
       }
     ]
   },
@@ -166,6 +180,20 @@
     ]
   },
   {
+    "country": "France",
+    "id": "bonifacio",
+    "name": "Bonifacio",
+    "position": {
+      "latitude": 41.387221,
+      "longitude": 9.159296
+    },
+    "events": [
+      {
+        "year": 2026
+      }
+    ]
+  },
+  {
     "country": "Morocco",
     "id": "boumalneDades",
     "name": "Boumalne Dades",
@@ -184,7 +212,7 @@
     "id": "bowmore",
     "name": "Bowmore",
     "position": {
-      "latitude": 55.75652166926427, 
+      "latitude": 55.75652166926427,
       "longitude": -6.285362785632453
     },
     "events": [
@@ -199,7 +227,7 @@
     "name": "Brighton",
     "position": {
       "latitude": 50.819343,
-      "longitude": -0.137000
+      "longitude": -0.137
     },
     "events": [
       {
@@ -271,7 +299,7 @@
     "id": "bute",
     "name": "Isle of Bute",
     "position": {
-      "latitude": 55.730335, 
+      "latitude": 55.730335,
       "longitude": -5.004587
     },
     "events": [
@@ -347,6 +375,20 @@
     ]
   },
   {
+    "country": "France",
+    "id": "calvi",
+    "name": "Calvi",
+    "position": {
+      "latitude": 42.567498,
+      "longitude": 8.757218
+    },
+    "events": [
+      {
+        "year": 2026
+      }
+    ]
+  },
+  {
     "country": "Spain",
     "id": "cantabriaCoast",
     "name": "Cantabria Coast",
@@ -365,7 +407,7 @@
     "id": "cefalu",
     "name": "Cafelu",
     "position": {
-      "latitude": 38.036841, 
+      "latitude": 38.036841,
       "longitude": 14.019832
     },
     "events": [
@@ -402,7 +444,7 @@
     "id": "conwy",
     "name": "Conwy",
     "position": {
-      "latitude":53.280794,
+      "latitude": 53.280794,
       "longitude": -3.806434
     },
     "events": [
@@ -416,12 +458,26 @@
     "id": "corralejo",
     "name": "Corralejo",
     "position": {
-      "latitude": 28.72940481934322, 
+      "latitude": 28.72940481934322,
       "longitude": -13.864125239466558
     },
     "events": [
       {
         "year": 2024
+      }
+    ]
+  },
+  {
+    "country": "France",
+    "id": "corte",
+    "name": "Corte",
+    "position": {
+      "latitude": 42.306389,
+      "longitude": 9.149167
+    },
+    "events": [
+      {
+        "year": 2026
       }
     ]
   },
@@ -468,6 +524,20 @@
     ]
   },
   {
+    "country": "Tanzania",
+    "id": "darEsSalaam",
+    "name": "Dar es Salaam",
+    "position": {
+      "latitude": -6.817419,
+      "longitude": 39.286224
+    },
+    "events": [
+      {
+        "year": 2019
+      }
+    ]
+  },
+  {
     "country": "Spain",
     "id": "deja",
     "name": "Deià",
@@ -478,6 +548,20 @@
     "events": [
       {
         "year": 2018
+      }
+    ]
+  },
+  {
+    "country": "Ireland",
+    "id": "dublin",
+    "name": "Dublin",
+    "position": {
+      "latitude": 53.347333,
+      "longitude": -6.258973
+    },
+    "events": [
+      {
+        "year": 2019
       }
     ]
   },
@@ -500,40 +584,12 @@
     "id": "dunbar",
     "name": "Dunbar",
     "position": {
-      "latitude": 56.00283347634343, 
+      "latitude": 56.00283347634343,
       "longitude": -2.5182870927682797
     },
     "events": [
       {
         "year": 2024
-      }
-    ]
-  },
-  {
-    "country": "Ireland",
-    "id": "dublin",
-    "name": "Dublin",
-    "position": {
-      "latitude": 53.347333,
-      "longitude": -6.258973
-    },
-    "events": [
-      {
-        "year": 2019
-      }
-    ]
-  },
-  {
-    "country": "Tanzania",
-    "id": "darEsSalaam",
-    "name": "Dar es Salaam",
-    "position": {
-      "latitude": -6.817419,
-      "longitude": 39.286224
-    },
-    "events": [
-      {
-        "year": 2019
       }
     ]
   },
@@ -616,6 +672,20 @@
     ]
   },
   {
+    "country": "US",
+    "id": "escalante",
+    "name": "Escalante",
+    "position": {
+      "latitude": 37.770467,
+      "longitude": -111.609773
+    },
+    "events": [
+      {
+        "year": 2015
+      }
+    ]
+  },
+  {
     "country": "Spain",
     "id": "esCanar",
     "name": "Es Canar",
@@ -647,16 +717,16 @@
     ]
   },
   {
-    "country": "US",
-    "id": "escalante",
-    "name": "Escalante",
+    "country": "Spain",
+    "id": "esPujols",
+    "name": "Es Pujols",
     "position": {
-      "latitude": 37.770467,
-      "longitude": -111.609773
+      "latitude": 38.720902,
+      "longitude": 1.458228
     },
     "events": [
       {
-        "year": 2015
+        "year": 2022
       }
     ]
   },
@@ -665,7 +735,7 @@
     "id": "Estellencs",
     "name": "Estellencs",
     "position": {
-      "latitude": 39.653309, 
+      "latitude": 39.653309,
       "longitude": 2.481243
     },
     "events": [
@@ -727,8 +797,8 @@
     "id": "favignana",
     "name": "Favignana",
     "position": {
-      "latitude": 37.930042, 
-      "longitude": 12.329100
+      "latitude": 37.930042,
+      "longitude": 12.3291
     },
     "events": [
       {
@@ -761,20 +831,6 @@
     "events": [
       {
         "year": 2016
-      }
-    ]
-  },
-  {
-    "country": "Spain",
-    "id": "esPujols",
-    "name": "Es Pujols",
-    "position": {
-      "latitude": 38.720902, 
-      "longitude": 1.458228
-    },
-    "events": [
-      {
-        "year": 2022
       }
     ]
   },
@@ -869,6 +925,20 @@
     ]
   },
   {
+    "country": "Sweden",
+    "id": "gryt",
+    "name": "Gryt",
+    "position": {
+      "latitude": 58.187882,
+      "longitude": 16.89258
+    },
+    "events": [
+      {
+        "year": 2026
+      }
+    ]
+  },
+  {
     "country": "Iceland",
     "id": "hofsos",
     "name": "Hofsós",
@@ -887,7 +957,7 @@
     "id": "ibiza",
     "name": "Ibiza",
     "position": {
-      "latitude": 38.907040,
+      "latitude": 38.90704,
       "longitude": 1.422131
     },
     "events": [
@@ -904,7 +974,7 @@
     "id": "inverness",
     "name": "Inverness",
     "position": {
-      "latitude": 57.479843, 
+      "latitude": 57.479843,
       "longitude": -4.231264
     },
     "events": [
@@ -977,7 +1047,7 @@
     "id": "kirkwall",
     "name": "Kirkwall",
     "position": {
-      "latitude": 58.98341619321655, 
+      "latitude": 58.98341619321655,
       "longitude": -2.960207832725207
     },
     "events": [
@@ -1178,7 +1248,7 @@
     "id": "munich",
     "name": "Munich",
     "position": {
-      "latitude": 48.14083470273713, 
+      "latitude": 48.14083470273713,
       "longitude": 11.574503550253793
     },
     "events": [
@@ -1219,6 +1289,20 @@
     ]
   },
   {
+    "country": "Sweden",
+    "id": "norrkoping",
+    "name": "Norrköping",
+    "position": {
+      "latitude": 58.587745,
+      "longitude": 16.192421
+    },
+    "events": [
+      {
+        "year": 2026
+      }
+    ]
+  },
+  {
     "country": "Portugal",
     "id": "odeceixe",
     "name": "Odeceixe",
@@ -1247,6 +1331,20 @@
     ]
   },
   {
+    "country": "France",
+    "id": "ota",
+    "name": "Ota",
+    "position": {
+      "latitude": 42.261389,
+      "longitude": 8.728056
+    },
+    "events": [
+      {
+        "year": 2026
+      }
+    ]
+  },
+  {
     "country": "Canada",
     "id": "ottawa",
     "name": "Ottawa",
@@ -1266,6 +1364,20 @@
     "events": [
       {
         "year": 2017
+      }
+    ]
+  },
+  {
+    "country": "Italy",
+    "id": "palermo",
+    "name": "Palermo",
+    "position": {
+      "latitude": 38.136442,
+      "longitude": 13.346984
+    },
+    "events": [
+      {
+        "year": 2023
       }
     ]
   },
@@ -1388,6 +1500,34 @@
     ]
   },
   {
+    "country": "France",
+    "id": "portoVecchio",
+    "name": "Porto Vecchio",
+    "position": {
+      "latitude": 41.591017,
+      "longitude": 9.279485
+    },
+    "events": [
+      {
+        "year": 2026
+      }
+    ]
+  },
+  {
+    "country": "Czech Republic",
+    "id": "prague",
+    "name": "Prague",
+    "position": {
+      "latitude": 50.075538,
+      "longitude": 14.4378
+    },
+    "events": [
+      {
+        "year": 2016
+      }
+    ]
+  },
+  {
     "country": "Spain",
     "id": "puertoCalero",
     "name": "Puerto Calero",
@@ -1412,65 +1552,6 @@
     "events": [
       {
         "year": 2024
-      }
-    ]
-  },
-  {
-    "country": "US",
-    "id": "seattle",
-    "name": "Seattle",
-    "position": {
-      "latitude": 47.606209,
-      "longitude": -122.332071
-    },
-    "events": [
-      {
-        "year": 2014
-      },
-      {
-        "year": 2017
-      }
-    ]
-  },
-  {
-    "country": "Tanzania",
-    "id": "stoneTown",
-    "name": "Stone Town",
-    "position": {
-      "latitude": -6.162426,
-      "longitude": 39.18817
-    },
-    "events": [
-      {
-        "year": 2019
-      }
-    ]
-  },
-  {
-    "country": "Italy",
-    "id": "palermo",
-    "name": "Palermo",
-    "position": {
-      "latitude": 38.136442, 
-      "longitude": 13.346984
-    },
-    "events": [
-      {
-        "year": 2023
-      }
-    ]
-  },
-  {
-    "country": "Czech Republic",
-    "id": "prague",
-    "name": "Prague",
-    "position": {
-      "latitude": 50.075538,
-      "longitude": 14.4378
-    },
-    "events": [
-      {
-        "year": 2016
       }
     ]
   },
@@ -1508,6 +1589,20 @@
     "events": [
       {
         "year": 2017
+      }
+    ]
+  },
+  {
+    "country": "France",
+    "id": "refugeOrtu",
+    "name": "Refuge d'Ortu",
+    "position": {
+      "latitude": 42.364167,
+      "longitude": 8.866111
+    },
+    "events": [
+      {
+        "year": 2026
       }
     ]
   },
@@ -1574,6 +1669,20 @@
     ]
   },
   {
+    "country": "Sweden",
+    "id": "saintAnna",
+    "name": "Saint Anna",
+    "position": {
+      "latitude": 58.386204698004384,
+      "longitude": 17.01209221422072
+    },
+    "events": [
+      {
+        "year": 2026
+      }
+    ]
+  },
+  {
     "country": "US",
     "id": "saltLakeCity",
     "name": "Salt Lake City",
@@ -1607,6 +1716,23 @@
     "events": [
       {
         "year": 2013
+      }
+    ]
+  },
+  {
+    "country": "US",
+    "id": "seattle",
+    "name": "Seattle",
+    "position": {
+      "latitude": 47.606209,
+      "longitude": -122.332071
+    },
+    "events": [
+      {
+        "year": 2014
+      },
+      {
+        "year": 2017
       }
     ]
   },
@@ -1653,6 +1779,20 @@
     ]
   },
   {
+    "country": "France",
+    "id": "solenzara",
+    "name": "Solenzara",
+    "position": {
+      "latitude": 41.841112451886225,
+      "longitude": 9.334390670268824
+    },
+    "events": [
+      {
+        "year": 2026
+      }
+    ]
+  },
+  {
     "country": "US",
     "id": "spokane",
     "name": "Spokane",
@@ -1680,7 +1820,7 @@
     "id": "stAndrews",
     "name": "St Andrews",
     "position": {
-      "latitude": 56.339232, 
+      "latitude": 56.339232,
       "longitude": -2.796962
     },
     "events": [
@@ -1694,12 +1834,40 @@
     "id": "stirling",
     "name": "Stirling",
     "position": {
-      "latitude": 56.117742, 
+      "latitude": 56.117742,
       "longitude": -3.937737
     },
     "events": [
       {
         "year": 2022
+      }
+    ]
+  },
+  {
+    "country": "Sweden",
+    "id": "stockholm",
+    "name": "Stockholm",
+    "position": {
+      "latitude": 59.329323,
+      "longitude": 18.068581
+    },
+    "events": [
+      {
+        "year": 2026
+      }
+    ]
+  },
+  {
+    "country": "Tanzania",
+    "id": "stoneTown",
+    "name": "Stone Town",
+    "position": {
+      "latitude": -6.162426,
+      "longitude": 39.18817
+    },
+    "events": [
+      {
+        "year": 2019
       }
     ]
   },
@@ -1713,20 +1881,6 @@
     }
   },
   {
-    "country": "Switzerland",
-    "id": "swissAlps",
-    "name": "Swiss Alps",
-    "position": {
-      "latitude": 46.713289,
-      "longitude": 9.896206
-    },
-    "events": [
-      {
-        "year": 2019
-      }
-    ]
-  },
-  {
     "country": "UK",
     "id": "swanage",
     "name": "Swanage",
@@ -1737,6 +1891,20 @@
     "events": [
       {
         "year": 2023
+      }
+    ]
+  },
+  {
+    "country": "Switzerland",
+    "id": "swissAlps",
+    "name": "Swiss Alps",
+    "position": {
+      "latitude": 46.713289,
+      "longitude": 9.896206
+    },
+    "events": [
+      {
+        "year": 2019
       }
     ]
   },
@@ -1756,7 +1924,7 @@
   },
   {
     "country": "UK",
-    "id": " tarskavig",
+    "id": "tarskavig",
     "name": "Tarskavig",
     "position": {
       "latitude": 57.114056,
@@ -1791,7 +1959,7 @@
     "id": "toulouse",
     "name": "Toulouse",
     "position": {
-      "latitude": 43.601412, 
+      "latitude": 43.601412,
       "longitude": 1.440315
     },
     "events": [
@@ -1819,7 +1987,7 @@
     "id": "ullapool",
     "name": "Ullapool",
     "position": {
-      "latitude": 57.89794200629646, 
+      "latitude": 57.89794200629646,
       "longitude": -5.16220955404742
     },
     "events": [
@@ -1915,7 +2083,7 @@
     "id": "weaverville",
     "name": "Weaverville",
     "position": {
-      "latitude": 40.733537738934096, 
+      "latitude": 40.733537738934096,
       "longitude": -122.94076099564393
     },
     "events": [
@@ -1963,62 +2131,6 @@
     "events": [
       {
         "year": 2015
-      }
-    ]
-  },
-  {
-    "country": "Sweden",
-    "id": "stockholm",
-    "name": "Stockholm",
-    "position": {
-      "latitude": 59.329323,
-      "longitude": 18.068581
-    },
-    "events": [
-      {
-        "year": 2026
-      }
-    ]
-  },
-  {
-    "country": "Sweden",
-    "id": "norrkoping",
-    "name": "Norrköping",
-    "position": {
-      "latitude": 58.587745,
-      "longitude": 16.192421
-    },
-    "events": [
-      {
-        "year": 2026
-      }
-    ]
-  },
-  {
-    "country": "Sweden",
-    "id": "saintAnna",
-    "name": "Saint Anna",
-    "position": {
-      "latitude": 58.386204698004384,
-      "longitude": 17.01209221422072
-    },
-    "events": [
-      {
-        "year": 2026
-      }
-    ]
-  },
-  {
-    "country": "Sweden",
-    "id": "gryt",
-    "name": "Gryt",
-    "position": {
-      "latitude": 58.187882,
-      "longitude": 16.892580
-    },
-    "events": [
-      {
-        "year": 2026
       }
     ]
   },
